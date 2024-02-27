@@ -1,0 +1,76 @@
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/white-noise.gif");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .error-container {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .error-warning {
+    font-size: 10rem;
+  }
+  
+  .error-code {
+    font-size: 2rem;
+  }
+  .computer-image{
+    width: 10rem;
+  }
+  .search-container input[type="search"] {
+    font-family: 'Press Start 2P', cursive;
+    width: 300px; /* Adjust the width as needed */
+  }
+  .return {
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  .return:hover {
+    background-color: #c0c0c0;
+  }
+  
+  .return:active {
+    transform: translateY(1px);
+  }
+  .find {
+    background-color: red;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+    .find:hover {
+      background-color: #f7c737;
+    }
+  
+    .find:active {
+      transform: translateY(1px);
+    }
+  
